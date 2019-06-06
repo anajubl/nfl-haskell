@@ -26,6 +26,6 @@
                                     <td>    
                                         <a href=@{NoticiaUpdateR noticiaid} .btn .btn-lg .btn-danger >Editar
                                     <td>    
-                                        <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Deletar  
+                                        <a href=@{DelNoticiaR noticiaid} .btn .btn-lg .btn-danger >Deletar  
                     
                         

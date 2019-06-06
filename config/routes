@@ -13,3 +13,4 @@
 /noticiaf                       NoticiafR       GET
 /noticia/#NoticiaId/ler         LerR            GET
 /noticia/#NoticiaId             NoticiaUpdateR  GET POST
+/noticia/#NoticiaId/delete      DelNoticiaR      POST

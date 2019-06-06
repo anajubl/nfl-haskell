@@ -51,3 +51,11 @@ getNoticiaUpdateR noticiaId = do
             
 postNoticiaUpdateR :: NoticiaId -> Handler Html
 postNoticiaUpdateR noticiaId = getNoticiaUpdateR noticiaId
+
+
+
+postDelNoticiaR :: NoticiaId -> Handler Html
+postDelNoticiaR notid = do 
+    _ <- runDB $ get404 notid
+    runDB $ delete notidd
+    redirect AdminR
