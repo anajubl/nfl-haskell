@@ -40,46 +40,26 @@
                     Veja notícias dos times da NFL 100!
 
         
+    <div .container >
         <div .row>
-            <div .col-md-6 >
-                <h3>Notícias
-                    <div>
-                        <img src=@{StaticR imgs_logoNfl_png}>
-                        
-                        $forall(Entity noticiaid  noticia) <- noticias
-                            <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6>
-                                <div .notic>
-                                    <h4>
-                                        #{noticiaTitulo noticia}
-                                    <p>
-                                        #{noticiaDescricao noticia}
-                                    <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Leia Mais
+            <div .col-6>
+
+                $forall(Entity noticiaid  noticia) <- noticias
+                    <div .col-lg-12 >
+                    
+                        <div .notic>
+                            <h4>
+                                #{noticiaTitulo noticia}
+                            <hr .corHr>
+                            <p>
+                                #{noticiaDescricao noticia}
+                            <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Leia Mais
+            
+            
+
         <br>
         
-        <div .row .text-center>
-            <div .col-md-6>
-                <div .icon-box>
-                    <i .fas .fa-trophy>
-
-                <h3>
-                    <strong>
-                        Vencedor
-                    
-                <p>
-                    Qual time que irá ganhar na rodada.
-            
-            <div .col-md-6>
-                <div .icon-box>
-                    <i .fas .fa-greater-than>
-                
-                <h3>
-                    <strong>
-                        Diferença de Pontos
-                
-                
-                <p>
-                    Podendo escolher entre 10 e 20 pontos, ou mais.
-            
+        
 <!-- INÍCIO TIMES  -->
 <section>
     <div .container-fluid .times-container .times-bg .angle--top-right>
