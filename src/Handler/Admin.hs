@@ -17,9 +17,11 @@ getAdminR = do
     noticias <- runDB $ selectList [] [Asc NoticiaId]
 
     defaultLayout $ do 
+        addStylesheet $ StaticR css_style_css
         addStylesheet $ StaticR css_bootstrap_css
-        $(whamletFile "templates/noticia.hamlet")
-        toWidget $(luciusFile "templates/noticia.lucius")
+        addStylesheetRemote "https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        $(whamletFile "templates/admin.hamlet")
+        toWidget $(luciusFile "templates/admin.lucius")
       
      
       

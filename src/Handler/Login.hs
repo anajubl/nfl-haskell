@@ -21,7 +21,9 @@ getLoginR = do
     (widgetForm, enctype) <- generateFormPost formLogin
    
     defaultLayout $ do 
+        addStylesheet $ StaticR css_style_css
         addStylesheet $ StaticR css_bootstrap_css
+        addStylesheetRemote "https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         $(whamletFile "templates/login.hamlet")
         toWidget $(luciusFile "templates/login.lucius")
         

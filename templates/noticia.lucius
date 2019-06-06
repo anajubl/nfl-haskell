@@ -22,7 +22,62 @@ th {
     padding: 10px;
 }
 
+.times-container{
+    padding-top: 130px;
+}
 
+.times-bg{
+    background-image: url(@{StaticR imgs_nflBet_png});
+    
+}
+.times{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.times p{
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+}
+
+.times-container h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 63px;
+    color: #fff;
+    border-top: 3px solid #d7d7d7;
+    border-bottom: 3px solid #d7d7d7;
+    margin-bottom: 63px;
+}
+
+.angle--top-right {
+    position: relative;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0,100% 12vw,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 12vw,100% 100%,0 100%);
+}
+.btn-danger{
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: normal;
+    font-family: UnitedSansReg,sans-serif;
+    font-weight: 700;
+    padding: 20px 24px;
+    letter-spacing: 2.67px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 20px 5px rgba(0,0,0,.2);
+    box-shadow: 0 2px 20px 5px rgba(0,0,0,.2);
+}
+
+.btn-danger:hover{
+    text-decoration: none;
+}
 
 
 

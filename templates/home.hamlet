@@ -5,9 +5,7 @@
                 <li .nav-item>
                     <img src=@{StaticR imgs_logoNfl_png} .img-responsive .logo-nav alt="">
                 <li .nav-item .active>
-                    <a .nav-link href=@{HomeR}>Home
-                <li .nav-item>
-                    <a .nav-link href="">Times
+                    <a .nav-link .active href=@{HomeR}>Home
                 <li .nav-item>
                     <a .nav-link href=@{NoticiaR}>Notícias
                 <li .nav-item> 
@@ -171,10 +169,6 @@
             <div .col-md-2 .times>
                 <img alt="San Francisco 49ers"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/SF.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
                 <p .lead>San Francisco 49ers
-                
-        <div .text-center>
-            <a href="#" .btn-lg .btn-danger>
-                JOGOS
         
         <hr>
 
