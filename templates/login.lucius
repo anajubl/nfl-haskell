@@ -1,6 +1,11 @@
 /*-----LOGAR-----*/
 
-body {
+p, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+
+.registrobg {
     padding-top: 120px;
     padding-bottom: 40px;
     background-color: #eee;
