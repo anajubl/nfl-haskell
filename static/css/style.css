@@ -1,14 +1,20 @@
 /* Inicio Menu */
 
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 74px !important;
+}
+
 .nav-item {
     font-family: Century Gothic;
-    margin: 0 auto;
-    padding: 20px;
-    list-style: none;
+    margin: 0 auto !important;
+    padding: 10px !important;
+    list-style: none !important;
 }
 .nav-item a {
     color: #ccc !important;
-    text-decoration: none;
+    text-decoration: none !important;
     font: 20px Century Gothic;
     margin: 0px 4px;
     padding: 10px 10px;
@@ -23,11 +29,16 @@
 }
 
 .logo-nav{
-    width: 50% !important;
+    width: 15% !important;
 }
 
 nav{
-    border-bottom: 4px solid #B8860B;
+    border-bottom: 4px solid #B8860B !important;
+}
+
+.navbar{
+    background-color: #333;
+    margin-bottom: 0 !important;
 }
 
 /* Top & Bottom Borders Out */
@@ -58,7 +69,7 @@ nav{
 
 .banner{
     width: 100% !important;
-    margin-top: 15vh;
+    
 }
 /* Final Menu */
 

@@ -1,4 +1,4 @@
-<nav .menum .navbar .navbar-light .navbar-expand-md .justify-content-center .bg-dark .fixed-top>
+<nav .menum .navbar .navbar-light .navbar-expand-md .justify-content-center .bg .bg-dark .fixed-top>
     <div .container>
         <div .navbar-collapse .collapse .justify-content-between .align-items-center .w-100 #collapsingNavbar2>
             <ul .topBotomBordersOut .navbar-nav .mx-auto .text-center>
@@ -8,6 +8,8 @@
                     <a .nav-link .active href=@{HomeR}>Home
                 <li .nav-item>
                     <a .nav-link href=@{NoticiaR}>Notícias
+                <li .nav-item>
+                    <a .nav-link href="#teams">Times
                 <li .nav-item> 
                     <a .nav-link href=@{LoginR}>Login
 
@@ -82,7 +84,7 @@
 <section>
     <div .container-fluid .times-container .times-bg .angle--top-right>
         <div .row>
-            <div .text-center .col-md-12>
+            <div .text-center .col-md-12 #teams>
                 <h2>
                     Times participantes
             
