@@ -1,0 +1,7 @@
+<main>
+    <div .row>    
+        <div .col-lg-6>
+            <form .formu action=@{NoticiaUpdateR noticiaId} method=post enctype=#{enctype}>
+                ^{widgetForm}
+                 <input type="submit" value="OK">
+            

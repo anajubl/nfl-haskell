@@ -24,7 +24,7 @@
                                     <td>
                                         #{noticiaDescricao noticia}
                                     <td>    
-                                        <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Editar
+                                        <a href=@{NoticiaUpdateR noticiaid} .btn .btn-lg .btn-danger >Editar
                                     <td>    
                                         <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Deletar  
                     
