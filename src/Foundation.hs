@@ -19,30 +19,12 @@ data App = App
     , appLogger      :: Logger
     }
 
+
 mkYesodData "App" $(parseRoutesFile "config/routes")
--- UMA VEZ
 type Form a = Html -> MForm Handler (FormResult a, Widget)
-
-instance Yesod App where
---    makeLogger = return . appLogger
-    authRoute _ = Just LoginR
-    isAuthorized LoginR _ = return Authorized
-    isAuthorized HomeR _ = return Authorized
-    isAuthorized UsuarioR _ = return Authorized
-    isAuthorized _ _ = isUser
-
-
-    
-isUser :: Handler AuthResult
-isUser = do 
-    sess <- lookupSession "_ID"
-    case sess of 
-        Just _ -> return Authorized
-        Nothing -> return AuthenticationRequired
-
 instance Yesod App where
     makeLogger = return . appLogger
-
+    
 instance YesodPersist App where
     type YesodPersistBackend App = SqlBackend
     runDB action = do
@@ -51,6 +33,7 @@ instance YesodPersist App where
 
 instance RenderMessage App FormMessage where
     renderMessage _ _ = defaultFormMessage
+
 
 instance HasHttpManager App where
     getHttpManager = appHttpManager

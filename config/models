@@ -1,0 +1,17 @@
+Usuario
+    nome        Text
+    email       Text 
+    senha       Text 
+    deriving    Show Read
+
+Time json
+    nome   Text
+    deriving    Show Read
+
+Noticia json
+    time TimeId
+    titulo Text
+    descricao Text
+    texto Text
+    deriving    Show Read
+

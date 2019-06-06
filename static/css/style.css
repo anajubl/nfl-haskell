@@ -1,0 +1,330 @@
+/* Inicio Menu */
+
+.nav-item {
+    font-family: Century Gothic;
+    margin: 0 auto;
+    padding: 20px;
+    list-style: none;
+}
+.nav-item a {
+    color: #ccc !important;
+    text-decoration: none;
+    font: 20px Century Gothic;
+    margin: 0px 4px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-item a:hover{
+    color: #FFF !important;
+}
+
+.logo-nav{
+    width: 50% !important;
+}
+
+nav{
+    border-bottom: 4px solid #B8860B;
+}
+
+/* Top & Bottom Borders Out */
+.topBotomBordersOut a:before, .topBotomBordersOut a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content:"";
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.topBotomBordersOut a:before {
+    top: 0px;
+    transform: translateY(10px);
+}
+.topBotomBordersOut a:after {
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+.banner{
+    width: 100% !important;
+    margin-top: 15vh;
+}
+/* Final Menu */
+
+/* Primeira Seção */
+.primeira-secao{
+    background-color: #333;
+    padding-top: 60px;
+    padding-bottom: 34px;
+}
+
+.sobre{
+    width: 100%;
+    color: #fff;
+    border-bottom: 1em;
+}
+
+.angle--bottom-left {
+    position: relative;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 12vw));
+    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 12vw));
+}
+
+.cadastro-btn a {
+    font-weight: 700;
+    background-color: #fff;
+    color: #333f48 !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: normal;
+    font-family: UnitedSansReg,sans-serif;
+    font-weight: 700;
+    padding: 20px 24px;
+    letter-spacing: 2.67px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 20px 5px rgba(0,0,0,.2);
+    box-shadow: 0 2px 20px 5px rgba(0,0,0,.2);
+}
+
+.cadastro-btn a:hover{
+    background-color: #333f48;
+    color: #fff !important;
+
+}
+
+.nfl100-logo{
+    background-image: cover;
+    width: 85% !important;
+}
+
+.linha-vertical{
+    height: 250px;
+    border-left: 2px solid #ccc;
+    margin-bottom: 100px;
+}
+/* Fim Primeira Seção */
+
+
+/* Segunda Seção */
+
+
+.segunda-secao h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 63px;
+    color: #333;
+    border-top: 3px solid #a7a7a7;
+    border-bottom: 3px solid #a7a7a7;
+    margin-bottom: 63px;
+}
+.icon-box{
+    display: inline-block;
+    font-size: 36px;
+    width: 126px;
+    height: 126px;
+    line-height: 136px;
+    border: 2px solid #333f48;
+    text-align: center;
+}
+/* Fim segunda seção */
+
+/* Início times */
+.times-container{
+    padding-top: 130px;
+}
+
+.times-bg{
+    background-image: url(../imgs/nflBet.png);
+}
+.times{
+    padding: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.times p{
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+}
+
+.times-container h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 63px;
+    color: #fff;
+    border-top: 3px solid #d7d7d7;
+    border-bottom: 3px solid #d7d7d7;
+    margin-bottom: 63px;
+}
+
+.angle--top-right {
+    position: relative;
+    overflow: hidden;
+    -webkit-clip-path: polygon(0 0,100% 12vw,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 12vw,100% 100%,0 100%);
+}
+.btn-danger{
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: normal;
+    font-family: UnitedSansReg,sans-serif;
+    font-weight: 700;
+    padding: 20px 24px;
+    letter-spacing: 2.67px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 20px 5px rgba(0,0,0,.2);
+    box-shadow: 0 2px 20px 5px rgba(0,0,0,.2);
+}
+
+.btn-danger:hover{
+    text-decoration: none;
+}
+/* Fim times */
+
+/*footer início*/
+footer{
+    background-color: #333f48;
+    color: #d7d7d7;
+    padding: 30px;
+}
+
+.linha-footer{
+    background-color: #fff;
+    opacity: 0.2;
+}
+
+footer a{
+    letter-spacing: 2.67px;
+    text-decoration: none;
+    color:#B8860B;
+    text-transform: uppercase;
+    padding: 5px;
+
+}
+/* footer fim */
+@media only screen and (max-width: 768px) {
+    .toggle {display: block;}
+    ul {width: 100%;display: none;}
+    ul li {display: block;text-align: center;}
+    .active {display: block;}
+  }
+  
+  
+  
+/*PÁGINA REGISTRO*/
+.registrobg {
+    background-image: url('https://thewallpaper.co//wp-content/uploads/2016/10/sport-nfl-wallpapers-hd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
+
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*Inicio Imagem de centro*/
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #013369;
+    border-radius: 50%;
+    padding: 2%;
+    
+}
+/*Fim Imagem de centro*/
+
+/*Inicio Formulario Login*/
+.login-form-1 {
+    padding: 10% !important;
+    background: #013369;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.95;
+}
+
+.login-form-1:hover{
+    opacity: 1;
+}
+
+.login-form-1 h3 {
+    text-align: center;
+    margin-bottom: 12%;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 63px;
+}
+/*Fim Formulario Login*/
+
+/*Inicio Formulario Cadastro*/
+.cadastro-form-2 {
+    padding: 9.3% !important;
+    opacity: 0.95;
+    background-color: #808080;
+    box-shadow: 0 25px 18px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cadastro-form-2:hover{
+    opacity: 1;
+}
+
+.cadastro-form-2 h3 {
+    text-align: center;
+    margin-bottom: 12%;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 2.3em;
+    line-height: 63px;
+}
+/*Fim Formulario Cadastro*/
+
+/*BOTÕES ENVIAR*/
+.btnSubmit {
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+}
+
+/*BOTÕES ESQUECEU SUA SENHA*/
+.btnForgetPwd {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btnForgetPwd:hover {
+    text-decoration: none;
+    color: #fff;
+}

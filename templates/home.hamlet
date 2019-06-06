@@ -1,0 +1,164 @@
+<nav .menum .navbar .navbar-light .navbar-expand-md .justify-content-center .bg-dark .fixed-top>
+    <div .container>
+        <div .navbar-collapse .collapse .justify-content-between .align-items-center .w-100 #collapsingNavbar2>
+            <ul .topBotomBordersOut .navbar-nav .mx-auto .text-center>
+                <li .nav-item>
+                    <img src=@{StaticR imgs_logoNfl_png} .img-responsive .logo-nav alt="">
+                <li .nav-item .active>
+                    <a .nav-link href=@{HomeR}>Home
+                <li .nav-item>
+                    <a .nav-link href="">Times
+                <li .nav-item>
+                    <a .nav-link href="">Notícias
+                <li .nav-item> 
+                    <a .nav-link href="">Cadastro/Login
+
+<div .col-lg-12>
+    <img src="../static/imgs/banner.png" .img-responsive .banner>
+    
+<section .main .inner .cover>
+    <div .container-fluid .angle--bottom-left .primeira-secao>
+        <div .row>
+            <div .col-md-7 .sobre .text-center>
+                <h1 .cover-heading>
+                    DÊ O SEU PALPITE
+                <p .lead>
+                    Escolha em qual time apostar na rodada, quem será o campeão da conferência e o vencedor do super bowl!
+                <p .lead .cadastro-btn>
+                    <a href="#" .btn .btn-lg>
+                        CADASTRE-SE
+
+            <div .col-md-5 .order-md-1 .linha-vertical>
+                <img src="../static/imgs/nfl100Logo.png" .img-responsive .nfl100-logo>
+
+<section>
+    
+    <div .container .segunda-secao>
+        <div .row>
+            <div .text-center .col-md-12>
+                <h2>
+                    Quais palpites você pode fazer?
+
+        <div .row .text-center>
+            <div .col-md-6>
+                <div .icon-box>
+                    <i .fas .fa-trophy>
+
+                <h3>
+                    <strong>
+                        Vencedor
+                    
+                <p>
+                    Qual time que irá ganhar na rodada.
+            
+            <div .col-md-6>
+                <div .icon-box>
+                    <i .fas .fa-greater-than>
+                
+                <h3>
+                    <strong>
+                        Diferença de Pontos
+                
+                
+                <p>
+                    Podendo escolher entre 10 e 20 pontos, ou mais.
+            
+<!-- INÍCIO TIMES  -->
+<section>
+    <div .container-fluid .times-container .times-bg .angle--top-right>
+        <div .row>
+            <div .text-center .col-md-12>
+                <h2>
+                    Times participantes
+            
+            <div .times .col-md-2>
+                <img alt="Baltimore Ravens" height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/BAL.svg" width="44" style="border: 0px; display: block; box-sizing: border-box; padding: 2px;">
+                <p .lead>Baltimore Ravens
+            
+            <div .times .col-md-2>
+                <img alt="Cincinnati Bengals" height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/CIN.svg" width="44" style="border: 0px; display: block; box-sizing: border-box; padding: 2px;">
+                <p .lead>Cincinnati Bengals
+
+            <div .col-md-2 .times>
+                <img alt="Cleveland Browns"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/CLE.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Cleveland Browns
+
+            <div .col-md-2 .times>
+                <img alt="Buffalo Bills"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/BUF.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Buffalo Bills
+
+            <div .col-md-2 .times>
+                <img alt="Miami Dolphins"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/MIA.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Miami Dolphins
+
+            <div .col-md-2 .times>
+                <img alt="New England Patriots"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/NE.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>New England Patriots
+
+            <div .col-md-2 .times>
+                <img alt="New York Jets"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/NYJ.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>New York Jets
+
+            <div .col-md-2 .times>
+                <img alt="Indianapolis Colts"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/IND.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Indianapolis Colts
+
+            <div .col-md-2 .times>
+                <img alt="Tennessee Titans"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/TEN.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Tennessee Titans
+
+            <div .col-md-2 .times>
+                <img alt="Kansas City Chiefs"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/KC.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Kansas City Chiefs
+
+            <div .col-md-2 .times>
+                <img alt="Los Angeles Chargers"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/LAC.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Los Angeles Chargers
+
+            <div .col-md-2 .times>
+                <img alt="Oakland Raiders"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/OAK.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Oakland Raiders
+
+            <div .col-md-2 .times>
+                <img alt="Chicago Bears"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/CHI.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Chicago Bears
+
+            <div .col-md-2 .times>
+                <img alt="Green Bay Packers"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/GB.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Green Bay Packers
+
+            <div .col-md-2 .times>
+                <img alt="Minnesota Vikings"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/MIN.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Minnesota Vikings
+
+            <div .col-md-2 .times>
+                <img alt="Dallas Cowboys"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/DAL.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Dallas Cowboys
+
+            <div .col-md-2 .times>
+                <img alt="New York Giants"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/NYG.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>New York Giants
+
+            <div .col-md-2 .times>
+                <img alt="Philadelphia Eagles"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/PHI.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Philadelphia Eagles
+
+            <div .col-md-2 .times>
+                <img alt="Atlanta Falcons"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/ATL.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>Atlanta Falcons
+
+            <div .col-md-2 .times>
+                <img alt="New Orleans Saints"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/NO.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>New Orleans Saints
+
+            <div .col-md-2 .times>
+                <img alt="San Francisco 49ers"  height="44" sizes="100vw" src="https://static.nfl.com/static/content/public/static/wildcat/assets/img/logos/teams/SF.svg" width="44" data-radium="true" style="border: 0px; display: block; max-width: 100%; box-sizing: border-box; padding: 2px;">
+                <p .lead>San Francisco 49ers
+                
+        <div .text-center>
+            <a href="#" .btn-lg .btn-danger>
+                JOGOS
+        
+        <hr>
+
+
