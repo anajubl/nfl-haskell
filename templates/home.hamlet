@@ -11,7 +11,7 @@
                 <li .nav-item>
                     <a .nav-link href=@{NoticiaR}>Notícias
                 <li .nav-item> 
-                    <a .nav-link href="">Cadastro/Login
+                    <a .nav-link href=@{LoginR}>Login
 
 <div .col-lg-12>
     <img src=@{StaticR imgs_banner_png} .img-responsive .banner>
