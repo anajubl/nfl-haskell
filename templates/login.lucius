@@ -4,12 +4,31 @@ p, h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.login-logo img {
+    position: absolute;
+    /* display: flex !important; */
+    width: 11%;
+    /* margin: 0 auto !important; */
+    margin-left: 14% !important;
+    border-radius: 50%;
+    padding: 2%;
+    display: flex;
+    margin: auto;
+}
+
+.form-control, input {
+    border-width: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 .registrobg {
     padding-top: 120px;
     padding-bottom: 40px;
-    background-color: #eee;
-    background-image: url('http://svite-league-apps-content.s3.amazonaws.com/bgimages/field-stripes.jpg');
+    background-image: url('https://imgnooz.com/sites/default/files/wallpaper/sports/64042/nfl-wallpapers-64042-4218359.jpg');
     background-repeat: repeat;
 }
 
@@ -22,7 +41,6 @@ p, h1, h2, h3, h4, h5, h6 {
     border-right: none;
     box-shadow: inset 2px -3px rgba(0,0,0,0.15);
 }
-
 .btn:focus {
     outline: 0;
     -webkit-outline: 0;
@@ -89,6 +107,22 @@ p, h1, h2, h3, h4, h5, h6 {
     border-color: rgb(0,0,0);
     border-top: 1px solid rgba(0,0,0,0.08);
 }
+.formu .btn{
+    margin-top: 20px;
+    width: 48%;
+    padding: 10px;
+    display: flex;
+    height: 42px;
+}
+
+.formu input{
+    display: flex;
+    color: inherit;
+    font: inherit;
+    margin: 0 auto;
+    border: 1px solid #a7a6a5
+    background: gainsboro;
+}
 
 .form-signin-heading {
     text-decoration: bold;
@@ -97,3 +131,4 @@ p, h1, h2, h3, h4, h5, h6 {
 	color: #F96;
 	padding-top: 10px;
 }
+

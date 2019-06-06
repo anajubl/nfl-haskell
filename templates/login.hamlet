@@ -9,10 +9,10 @@
                 <h3>Login
                 <form .formu action=@{LoginR} method=post enctype=#{enctype}>
                     ^{widgetForm}
-                    <input type="submit" value="Login">
+                    <input type="submit" value="Login" .btn .btnSubmit>
             
 
             <!--INÍCIO ABA CADASTRO-->
-            <div .col-md-6 .cadastro-form-2>
+            <div .col-md-6>
                 <div .login-logo>
                     <img src=@{StaticR imgs_logoNfl_png}>
