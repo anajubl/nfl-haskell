@@ -14,6 +14,8 @@ import Prelude (read)
 getHomeR :: Handler Html
 getHomeR = do
 
+    noticias <- runDB $ selectList [] [Asc NoticiaId]
+
     defaultLayout $ do 
         addStylesheet $ StaticR css_style_css
         addStylesheet $ StaticR css_bootstrap_css
