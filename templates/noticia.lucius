@@ -1,0 +1,30 @@
+@font-face {
+    font-family: nfl font;
+    src: url('../static/fonts/nfl-font.eot');
+        url('../static/fonts/nfl-font.woff');
+}
+
+h1 {
+    text-align: right;
+    color: blue;
+    font-family: nfl font;
+    
+}
+
+
+.notic {
+    border: 2px solid;
+    margin: 20px 30px;
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+
+
+
+
+
+

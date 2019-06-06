@@ -19,8 +19,4 @@
             <div .col-md-6 .cadastro-form-2>
                 <div .login-logo>
                     <a href="#">
-                        <img src=@{StaticR imgs_logoNfl_png}>
-                        
-
-
-            
+                        <img src=@{StaticR imgs_logoNfl_png}

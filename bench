@@ -2,3 +2,13 @@ Host: ec2-54-225-72-238.compute-1.amazonaws.com
 Database: d93lsfq1rl1fv5
 User: yzkvihuqjvegcr
 Password: 5f7be34ea35645c03ed24dc5c488e88e2d08d8f665b3f284202e1319e40249ea
+
+psql -h ec2-54-225-72-238.compute-1.amazonaws.com -U yzkvihuqjvegcr -d d93lsfq1rl1fv5 
+
+
+insert into usuario (nome, email, senha) values('admin', 'admin@email.com', 'admin123');      
+
+
+admin@email.com
+
+admin123

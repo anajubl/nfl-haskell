@@ -1,0 +1,17 @@
+<div .fundo-esc>
+
+<div .container-fluid .fundo>
+    <div .row  .topo>
+        <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6>
+            <a href=@{HomeR} .link-logo>
+                <img src=@{StaticR imgs_logoNfl_png} class="img-responsive">   
+
+        <div .col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <h1>Noticias
+            
+    $forall(Entity _  noticia) <- noticias
+        <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6 ">
+            <h2>
+                #{noticiaTitulo noticia}
+            <p>
+                #{noticiaTexto noticia}
