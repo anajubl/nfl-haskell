@@ -9,6 +9,8 @@
             <div .col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
                 <h1>Noticias
                 
+                    <a href=@{NoticiafR} .btn .btn-md> Criar Nova Notícia
+                    
                     <table>
                         <thead> 
                             <tr>
@@ -22,8 +24,9 @@
                                     <td>
                                         #{noticiaDescricao noticia}
                                     <td>    
-                                        <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Editar
+                                        <a href=@{NoticiaUpdateR noticiaid} .btn .btn-lg .btn-info >Editar
                                     <td>    
-                                        <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Deletar  
+                                        <form action=@{NoticiaDelR noticiaid} method="post">
+                                            <input .btn .btn-lg .btn-danger type="submit" value="Deletar">  
                     
                         

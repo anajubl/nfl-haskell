@@ -18,8 +18,8 @@ getAdminR = do
 
     defaultLayout $ do 
         addStylesheet $ StaticR css_bootstrap_css
-        $(whamletFile "templates/admin.hamlet")
-        toWidget $(luciusFile "templates/admin.lucius")
+        $(whamletFile "templates/noticia.hamlet")
+        toWidget $(luciusFile "templates/noticia.lucius")
       
      
       
