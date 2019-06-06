@@ -9,7 +9,7 @@
                 <li .nav-item>
                     <a .nav-link href="">Times
                 <li .nav-item>
-                    <a .nav-link href="">Notícias
+                    <a .nav-link href=@{NoticiaR}>Notícias
                 <li .nav-item> 
                     <a .nav-link href="">Cadastro/Login
 

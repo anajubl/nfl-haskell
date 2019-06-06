@@ -1,4 +1,29 @@
 
 <main .registrobg>
-    <div .container .login-container>
-        
+    <div .container-fluid .fundo>
+        <div .row  .topo>
+            <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6>
+                <a href=@{HomeR} .link-logo>
+                    <img src=@{StaticR imgs_logoNfl_png} .img-responsive>   
+    
+            <div .col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+                <h1>Noticias
+                
+                    <table>
+                        <thead> 
+                            <tr>
+                                <th>Título
+                                <th>Time 
+                        <tbody>
+                            $forall(Entity noticiaid  noticia) <- noticias
+                                <tr>
+                                    <td>
+                                        #{noticiaTitulo noticia}
+                                    <td>
+                                        #{noticiaDescricao noticia}
+                                    <td>    
+                                        <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Editar
+                                    <td>    
+                                        <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Deletar  
+                    
+                        

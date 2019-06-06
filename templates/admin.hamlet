@@ -1,25 +1,31 @@
-<div class="fundo-esc">
 
-<div class="container-fluid fundo">
-    <div class="row  topo">
-        <div class="col-lg-6">
-            
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
-            <h1>
-                <span>N
-                ational 
-                <span>F
-                ootball 
-                <span>L
-                eague
+<main .registrobg>
+    <div .container-fluid .fundo>
+        <div .row  .topo>
+            <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6>
+                <a href=@{HomeR} .link-logo>
+                    <img src=@{StaticR imgs_logoNfl_png} .img-responsive>   
     
-    <div class="row justify-around">
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-       
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a  href=@{NoticiafR} .btn .btn-lg .btn-danger .botaoh>Criar Notícia
-       
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-        
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            
+            <div .col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+                <h1>Noticias
+                
+                    <a href=@{NoticiafR} .btn .btn-md> Criar Nova Notícia
+                    
+                    <table>
+                        <thead> 
+                            <tr>
+                                <th>Título
+                                <th>Time 
+                        <tbody>
+                            $forall(Entity noticiaid  noticia) <- noticias
+                                <tr>
+                                    <td>
+                                        #{noticiaTitulo noticia}
+                                    <td>
+                                        #{noticiaDescricao noticia}
+                                    <td>    
+                                        <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Editar
+                                    <td>    
+                                        <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Deletar  
+                    
+                        

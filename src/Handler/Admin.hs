@@ -13,7 +13,9 @@ import Prelude (read)
 
 getAdminR :: Handler Html
 getAdminR = do
-   
+    
+    noticias <- runDB $ selectList [] [Asc NoticiaId]
+
     defaultLayout $ do 
         addStylesheet $ StaticR css_bootstrap_css
         $(whamletFile "templates/admin.hamlet")

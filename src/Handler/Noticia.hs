@@ -52,3 +52,10 @@ postNoticiaR = do
             runDB $ insert noticia 
             redirect NoticiaR
         _ -> redirect NoticiafR
+
+
+-- postDeletarNoticiaR :: NoticiaId -> Handler Html
+-- postDeletarNoticiaR notid = do 
+--     _ <- runDB $ get404 notid
+--     runDB $ delete notid
+--     redirect NoticiaR
