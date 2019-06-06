@@ -9,6 +9,9 @@ body{
 
 }
 
+.logo-menu {
+    width: 20%;
+}
 
 .topo{
     background-color: #d9d1ff;

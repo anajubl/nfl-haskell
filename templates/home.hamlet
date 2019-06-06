@@ -55,7 +55,7 @@
                             <hr .corHr>
                             <p>
                                 #{noticiaDescricao noticia}
-                            <a href=@{LerR noticiaid} .btn .btn-lg .btn-danger >Leia Mais
+                            <a href=@{LerR noticiaid} .btn .btn-primary >Leia Mais
             
             
 

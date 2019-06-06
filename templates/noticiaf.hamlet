@@ -13,9 +13,13 @@
                 Criar Notícia
 
     <div .row>    
-        <div .col-lg-6>
-                <form .formu action=@{NoticiaR} method=post enctype=#{enctype}>
-                    ^{widgetForm}
-                    <input type="submit" value="OK">
-            
-            
+        <div .col-lg-4>
+    
+        <div .col-lg-4>    
+            <form .formu action=@{NoticiaR} method=post enctype=#{enctype}>
+                ^{widgetForm}
+                <input type="submit" value="OK">
+    
+    
+        
+        <div .col-lg-4>    

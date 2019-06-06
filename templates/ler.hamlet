@@ -10,7 +10,7 @@
             <h1>Noticias
             
     $forall(Entity _  noticia) <- noticias
-        <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6 ">
+        <div .col-lg-12 .col-md-12 .col-sm-12>
             <h2>
                 #{noticiaTitulo noticia}
             <p>

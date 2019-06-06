@@ -1,7 +1,22 @@
+<div .row>
+    <div .col-lg-6 .col-md-6 >
+        <!--<img src=@{StaticR imgs_logoNfl_png} .img-responsive .logo-nav  .logo-menu>-->
+
+    <div .col-lg-6 .col-md-6 >
+
+<main>
+    <div .row>
+        <div .col-lg-12 .col-md-12 >
+            <h2>Editando Notícia
+
 <main>
     <div .row>    
-        <div .col-lg-6>
-            <form .formu action=@{NoticiaUpdateR noticiaId} method=post enctype=#{enctype}>
-                ^{widgetForm}
-                 <input type="submit" value="OK">
+        <div .col-lg-4>
             
+        <div .col-lg-4>
+            <form .formu action=@{NoticiaUpdateR noticiaId} method=post enctype=#{enctype}>
+                    ^{widgetForm}
+                     <input type="submit" value="OK">
+            
+        
+        <div .col-lg-4>

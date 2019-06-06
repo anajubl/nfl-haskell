@@ -1,13 +1,11 @@
-@font-face {
-    font-family: nfl font;
-    src: url('../static/fonts/nfl-font.eot');
-        url('../static/fonts/nfl-font.woff');
-}
-
 
  .logo-menu {
      width: 20%;
  }
+
+.ins-not {
+    background-image: url(../static/imgs/nflBet.png);
+}
 
 body {
     background-image: url(../static/imgs/nfl-bkg.jpg);
@@ -46,8 +44,7 @@ h1 {
 
 
 .formu {
-    background-color: #EBE4E4;
-    opacity: 0.8;
     margin-top: 20px;
+    padding: 20px;
 }
  
