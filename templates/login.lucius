@@ -1,0 +1,94 @@
+/*-----LOGAR-----*/
+
+body {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background-color: #eee;
+    background-image: url('http://svite-league-apps-content.s3.amazonaws.com/bgimages/field-stripes.jpg');
+    background-repeat: repeat;
+}
+
+.btn {
+    outline: 0;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: inset 2px -3px rgba(0,0,0,0.15);
+}
+
+.btn:focus {
+    outline: 0;
+    -webkit-outline: 0;
+    -moz-outline: 0;
+}
+
+.fullscreen_bg {
+    font-family: Roboto, sans-serif;
+    position: fixed;
+    right: 50rem;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://image.freepik.com/free-vector/dark-blue-blurred-background_1034-589.jpg');
+    border-style: 1px solid grey;
+    opacity: 0.8;
+    box-shadow: 2px 5px 5px 0px #eee;
+    max-width: 500px;
+}
+
+.form-signin {
+    max-width: 280px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.form-signin .form-signin-heading, .form-signin {
+    margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color: #000;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: rgb(0,0,0);
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.form-signin-heading {
+    text-decoration: bold;
+	text-align : center;
+	font-size: 30px;
+	color: #F96;
+	padding-top: 10px;
+}

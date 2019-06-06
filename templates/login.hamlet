@@ -1,0 +1,33 @@
+
+<main .registrobg>
+    <div .container .login-container>
+        <div .row>
+            
+            <!--INÍCIO ABA LOGIN-->
+            <div .col-md-6 .login-form-1>
+                        
+                <h3>Login
+                <form class="formu" action=@{LoginR} method=post enctype=#{enctype}>
+                    ^{widgetForm}
+                    <input type="submit" value="Login">
+            
+                    <div .form-group>
+                        <a href="#" .btnForgetPwd>
+                            Esqueceu sua Senha?
+                        
+            <!--INÍCIO ABA CADASTRO-->
+            <div .col-md-6 .cadastro-form-2>
+                <div .login-logo>
+                    <a href="#">
+                        <img src=@{StaticR imgs_logoNfl_png}>
+                        
+                <h3>Cadastrar
+                <form action="" method="POST" enctype=#{enctype}>
+                    ^{widgetForm}
+                
+                    <div .form-group>
+                        <input type="submit" .btnSubmit value="Cadastre-se">
+     
+
+
+            

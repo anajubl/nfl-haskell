@@ -3,5 +3,8 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR             GET 
+/            HomeR      GET 
+
+/admin       AdminR     GET
+/login       LoginR     GET POST
 
