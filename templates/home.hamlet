@@ -175,3 +175,16 @@
         <hr>
 
 
+<footer>
+    <div .container-fluid>
+        <div .row>
+            <div .col-md-12 .text-center>
+                <div .direitos>
+                © 2019 NFL Enterprises LLC. NFL and the NFL shield design are registered trademarks of the National Football League.The team names, logos and uniform designs are registered trademarks of the teams indicated. All other NFL-related trademarks are trademarks of the National Football League. NFL footage © NFL Productions LLC.
+        <hr .linha-footer>
+        <div .col-md-12>
+            <p .text-center> Projeto desenvolvido por:
+                <a href="https://www.linkedin.com/in/ana-julia-bravo/"> Ana Júlia Bravo
+                <a href="https://www.linkedin.com/in/gustavo-oliveira-88174614a/"> Gustavo Francisco
+                <a href="https://www.linkedin.com/in/gutemberg-macedo-2691a7164/"> Gutemberg Fernandes
+                <a href=@{LoginR} .admLogin>Login de adm

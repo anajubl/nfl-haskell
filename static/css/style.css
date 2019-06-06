@@ -222,7 +222,10 @@ footer{
     background-color: #fff;
     opacity: 0.2;
 }
-
+.admLogin{
+    color: #a7a7a7;
+    font-size: 9px;
+}
 footer a{
     letter-spacing: 2.67px;
     text-decoration: none;
