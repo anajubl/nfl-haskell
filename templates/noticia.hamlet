@@ -7,14 +7,14 @@
                         
                 <h3>Notícias
 
-                    <div .form-group>
+                    <div>
 
-                        <img src=@{StaticR imgs_logoNfl_png}
+                        <img src=@{StaticR imgs_logoNfl_png}>
                         
                         $forall(Entity noticiaid  noticia) <- noticias
                             <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6>
                                 <div .notic>
-                                    <h2>
+                                    <h4>
                                         #{noticiaTitulo noticia}
                                     <p>
                                         #{noticiaDescricao noticia}

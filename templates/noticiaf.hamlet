@@ -1,0 +1,22 @@
+<div .fundo-esc>
+
+<div .container-fluid .fundo>
+    <div .row  .topo>
+        <div .col-lg-4 .col-md-4 .col-sm-4 .col-xs-4>
+            <a href=@{HomeR} .link-logo>
+                <img src=@{StaticR imgs_logoNfl_png} .img-responsive>
+            
+        <div .col-lg-4 .col-md-4 .col-sm-4 .col-xs-4>
+            
+        <div .col-lg-4 .col-md-4 .col-sm-4 .col-xs-4>    
+            <h1>
+                Criar Noticia
+
+    <div .row>    
+        <div .col-lg-4>
+                <form .formu action=@{NoticiaR} method=post enctype=#{enctype}>
+                    ^{widgetForm}
+                    <input type="submit" value="OK">
+            
+            <div .col-lg-4>
+            
