@@ -4,7 +4,7 @@
     <div .row  .topo>
         <div .col-lg-4 .col-md-4 .col-sm-4 .col-xs-4>
             <a href=@{HomeR} .link-logo>
-                <img src=@{StaticR imgs_logoNfl_png} .img-responsive>
+                <img src=@{StaticR imgs_logoNfl_png} .img-responsive  .logo-menu>
             
         <div .col-lg-4 .col-md-4 .col-sm-4 .col-xs-4>
             

@@ -1,21 +1,23 @@
 
-<main .registrobg>
+<main>
     <div .container-fluid .fundo>
-        <div .row  .topo>
+        <div .row .topo>
             <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6>
                 <a href=@{HomeR} .link-logo>
-                    <img src=@{StaticR imgs_logoNfl_png} .img-responsive>   
+                    <img src=@{StaticR imgs_logoNfl_png} .img-responsive .logo-menu>   
     
-            <div .col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
-                <h1>Noticias
-                
-                    <a href=@{NoticiafR} .btn .btn-lg .btn-primary> Criar Nova Notícia
+                <div .col-lg-6 .col-md-6 .col-sm-6 .col-xs-6>
+                    <h2> Painel de Notícias
+                    <br>
+                    <a href=@{NoticiafR} .btn .btn-primary> Criar Nova Notícia
                     
-                    <table>
+            <div .row>
+                <div .col-lg-12>    
+                    <table .tabela-n>
                         <thead> 
                             <tr>
                                 <th>Título
-                                <th>Time 
+                                <th>Descrição da Notícia 
                         <tbody>
                             $forall(Entity noticiaid  noticia) <- noticias
                                 <tr>

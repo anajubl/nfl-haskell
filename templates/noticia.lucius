@@ -4,6 +4,11 @@
         url('../static/fonts/nfl-font.woff');
 }
 
+
+ .logo-menu {
+     width: 20%;
+ }
+
 h1 {
     text-align: right;
     color: blue;

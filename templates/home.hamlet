@@ -3,7 +3,7 @@
         <div .navbar-collapse .collapse .justify-content-between .align-items-center .w-100 #collapsingNavbar2>
             <ul .topBotomBordersOut .navbar-nav .mx-auto .text-center>
                 <li .nav-item>
-                    <img src=@{StaticR imgs_logoNfl_png} .img-responsive .logo-nav alt="">
+                    <img src=@{StaticR imgs_logoNfl_png} .img-responsive .logo-nav  .logo-menu>
                 <li .nav-item .active>
                     <a .nav-link .active href=@{HomeR}>Home
                 <li .nav-item>
@@ -23,10 +23,12 @@
                 <h1 .cover-heading>
                     VEJA AS NOTICIAS
                 <p .lead>
-                    Escolha em qual time apostar na rodada, quem será o campeão da conferência e o vencedor do super bowl!
-                <p .lead .cadastro-btn>
-                    <a href="#" .btn .btn-lg>
-                        CADASTRE-SE
+                    Saiba como os times que participarão dos eventos de 100 anos da NFL, vem para essa temporada.
+                <p .lead>
+                    A comemoração da 100ª temporada da NFL contará com uma série de eventos, iniciativas e programas da NFL 100 celebrando jogadores, fãs e suas comunidades. 
+                    Nos próximos meses e durante a próxima temporada, haverão homenagens aos jogadores, o passado e o presente, os treinadores e todos aqueles que compõem a 
+                    família NFL e ajudaram a construir a NFL no que ela é hoje. Vamos celebrar a nossa história e olhar para os próximos 100 anos.
+                    
 
             <div .col-md-5 .order-md-1 .linha-vertical>
                 <img src="../static/imgs/nfl100Logo.png" .img-responsive .nfl100-logo>

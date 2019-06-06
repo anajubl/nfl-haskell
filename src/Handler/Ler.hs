@@ -18,7 +18,9 @@ getLerR noticiaid = do
     noticias <- runDB $ selectList [ NoticiaId ==. noticiaid] [] 
     defaultLayout $ do 
         
+        addStylesheet $ StaticR css_style_css
         addStylesheet $ StaticR css_bootstrap_css
+        addStylesheetRemote "https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         $(whamletFile "templates/ler.hamlet")
         toWidget $(luciusFile "templates/ler.lucius")
         

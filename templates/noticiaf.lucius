@@ -5,6 +5,10 @@
 }
 
 
+ .logo-menu {
+     width: 20%;
+ }
+
 body {
     background-image: url(../static/imgs/nfl-bkg.jpg);
     background-position: center; /* Center the image */

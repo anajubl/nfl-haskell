@@ -1,0 +1,36 @@
+
+ .logo-menu {
+     width: 20%;
+ }
+
+
+table > thead > tr > th, .table > thead > tr > th, table > tbody > tr > th, 
+.table > tbody > tr > th, table > tfoot > tr > th, .table > tfoot > tr > th, table > thead > tr > td, .table > thead > tr > td, table > tbody > tr > td, 
+.table > tbody > tr > td, table > tfoot > tr > td, .table > tfoot > tr > td {
+    border: solid 2px !important;    
+}
+
+table.tabela-n {
+    padding: 20px 10px;
+    margin: 10px;
+    color: #fff;
+    border: solid 2px;
+    
+}
+
+th {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 2px;
+}
+
+td {
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    border: solid 2px;
+
+}
