@@ -14,7 +14,7 @@
                     <a .nav-link href="">Cadastro/Login
 
 <div .col-lg-12>
-    <img src="../static/imgs/banner.png" .img-responsive .banner>
+    <img src=@{StaticR imgs_banner_png} .img-responsive .banner>
     
 <section .main .inner .cover>
     <div .container-fluid .angle--bottom-left .primeira-secao>
