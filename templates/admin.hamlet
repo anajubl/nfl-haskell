@@ -24,8 +24,9 @@
                                     <td>
                                         #{noticiaDescricao noticia}
                                     <td>    
-                                        <a href=@{NoticiaUpdateR noticiaid} .btn .btn-lg .btn-danger >Editar
+                                        <a href=@{NoticiaUpdateR noticiaid} .btn .btn-lg .btn-info >Editar
                                     <td>    
-                                        <a href=@{DelNoticiaR noticiaid} .btn .btn-lg .btn-danger >Deletar  
+                                        <form action=@{NoticiaDelR noticiaid} method="post">
+                                            <input .btn .btn-lg .btn-danger type="submit" value="Deletar">  
                     
                         

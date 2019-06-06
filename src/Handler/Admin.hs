@@ -54,8 +54,7 @@ postNoticiaUpdateR noticiaId = getNoticiaUpdateR noticiaId
 
 
 
-postDelNoticiaR :: NoticiaId -> Handler Html
-postDelNoticiaR notid = do 
-    _ <- runDB $ get404 notid
-    runDB $ delete notidd
+postNoticiaDelR :: NoticiaId -> Handler Html
+postNoticiaDelR notid = do 
+    runDB $ delete notid
     redirect AdminR
